@@ -37,7 +37,6 @@
     color: inherit;
   }
   a:not(.btn):not(.no-underline) {
-    color: inherit;
     @apply underline hover:no-underline;
   }
 }
