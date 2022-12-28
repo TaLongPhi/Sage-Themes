@@ -2,8 +2,8 @@
 <div class="relative 2xl:w-4/5 xl:w-full 2xl:ml-100">
         <span class="text-lg font-bold text-red-100 2xl:p-0 xl:p-56 lg:p-33">THE LATEST</span>
         <div class="flex 2xl:flex-row justify-between md:flex-col 2xl:p-0 xl:px-56 lg:px-33 md:px-33">
-            <div class="shadow-2xl 2xl:w-full 2xl:m-0 xl:mb-16 lg:mb-17 xl:w-full rounded-b-4xl">
-                    <img src="{!! App::getImg()['imglast'] !!}" alt="{!! App::getImg()['alt'] !!}" class="w-full">
+            <div class="shadow-2xl 2xl:w-full 2xl:m-0 xl:mb-16 lg:mb-17 xl:w-full rounded-b-4xl rounded-t-5xl bg-white">
+                    <img src="{!! App::getImg()['imglast'] !!}" alt="{!! App::getImg()['alt'] !!}" class="w-full rounded-t-5xl">
                 <div class="w-4/5 py-10 mx-auto">
                     <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="w-1/2 2xl:ml-14 lg:w-full md:w-full">
-                <div class="w-full px-28 py-15 mb-11 shadow-2xl rounded-4xl">
+                <div class="w-full px-28 py-15 mb-11 shadow-2xl rounded-4xl bg-white">
                     <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     <a href="" class="text-lg font-bold text-red-100">
@@ -22,7 +22,7 @@
                         <span class="icomoon icon-chevron-right"></span>
                     </a>
                 </div>
-                <div class="w-full px-28 py-15 shadow-2xl rounded-4xl">
+                <div class="w-full px-28 py-15 shadow-2xl rounded-4xl bg-white">
                     <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     <a href="" class="text-lg font-bold text-red-100">
