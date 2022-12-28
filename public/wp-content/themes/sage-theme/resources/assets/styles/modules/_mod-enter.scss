@@ -1,0 +1,20 @@
+.self{
+    display: flex;
+    align-self: normal;
+}
+
+.info-col {
+    @apply xl:w-2/5 md:w-4/5 text-center flex flex-col items-center xl:mt-12 xl:mb-12 md:mx-auto;
+}
+
+.info-icon {
+    @apply mb-8;
+}
+
+.rotate0{
+  transform: rotate(0);
+}
+
+.rotate90{
+    transform: rotate(90deg);
+  }
