@@ -1,7 +1,7 @@
 <footer id="footer" class="wrap h- text-white5 module footer mt-60 bg-white">
   <div class="w-full relative">
       <div class="absolute right-0 left-0">
-          <img class="w-full h-205" src="{!! App::getImg()['imgfooter'] !!}" alt="{!! App::getImg()['alt'] !!}">
+          <img class="w-full lg:h-205 h-220" src="{!! App::getImg()['imgfooter'] !!}" alt="{!! App::getImg()['alt'] !!}">
       </div>
       <div class="absolute top-82 w-full">
           <div class="flex flex-col xl:w-4/5 md:w-full justify-between mx-auto xl:items-start md:items-center">
@@ -32,14 +32,14 @@
                       </div>
                   </div>
                   <div class="flex xl:w-70% md:w-full justify-between 2xl:items-start xl:items-end md:items-center 2xl:flex-row md:flex-col">
-                      <ul class="list-none text-white flex w-full xl:justify-between md:justify-around 2xl:mr-25 order">
-                            <li class="py-5 xl:px-0 md:px-6">
+                      <ul class="list-none flex w-full xl:justify-between md:justify-around 2xl:mr-25 order">
+                            <li class="py-5 xl:px-0 md:px-6 text-white">
                                 <a href="">ORCHESTRA SITE</a>
                             </li>
-                            <li class="py-5 xl:px-0 md:px-6">
+                            <li class="py-5 xl:px-0 md:px-6 text-white">
                                 <a href="">ENCOMPASS WEBSITE</a>
                             </li>
-                            <li class="py-5 xl:px-0 md:px-6">
+                            <li class="py-5 xl:px-0 md:px-6 text-white">
                                 <a href="">HANDOFF WEBSITE</a>
                             </li>
                       </ul>
@@ -49,7 +49,9 @@
                       </div>
                   </div>
               </div>
-              <p>© Encompass Technologies 2021</p>
+              <div class="text-white font-bold">
+                <p>© Encompass Technologies 2021</p>
+            </div>
           </div>
       </div>
   </div>
